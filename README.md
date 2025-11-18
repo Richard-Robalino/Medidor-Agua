@@ -50,7 +50,7 @@ La app permite a los usuarios autenticarse, registrar lecturas de medidores (usa
 
 ### Lecturas de todos (Admin)
 
-<img width="404" height="778" alt="image" src="https://github.com/user-attachments/assets/f8d98772-319e-4526-9801-89ad6dd9abef" />
+<img width="436" height="810" alt="image" src="https://github.com/user-attachments/assets/248f7256-8802-466c-bfff-587c0c30d1e7" />
 
 
 ### Modulo de Medidor (Medidor)
