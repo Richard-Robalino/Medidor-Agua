@@ -66,7 +66,7 @@ Asegúrate de tener instalado:
 - [Ionic CLI](https://ionicframework.com/docs/cli)  
   ```bash
   npm install -g @ionic/cli
-````
+ ```
 
 * [Firebase CLI](https://firebase.google.com/docs/cli)
 
@@ -325,17 +325,3 @@ npx cap open android
 npm test
 ```
 
----
-
-## 📄 Licencia
-
-Proyecto realizado con fines académicos / demostrativos.
-Ajusta esta sección según la licencia que quieras utilizar (MIT, GPL, etc.).
-
----
-
-```
-
-Si quieres, en el siguiente mensaje podemos armar juntos un pequeño **diagrama de arquitectura** (Front Ionic + Supabase + Firebase Hosting + Android) para ponerlo también en el README.
-::contentReference[oaicite:0]{index=0}
-```
