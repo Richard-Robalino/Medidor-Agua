@@ -1,0 +1,94 @@
+<ion-header translucent="true">
+  <ion-toolbar color="primary">
+    <ion-title>Nueva lectura</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="page-content">
+  <ion-list lines="none">
+    <ion-item>
+      <ion-label position="stacked">Valor del medidor</ion-label>
+      <ion-input
+        type="number"
+        [(ngModel)]="meterValue"
+        placeholder="Ingrese la lectura"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Observaciones</ion-label>
+      <ion-textarea
+        autoGrow="true"
+        rows="3"
+        [(ngModel)]="observations"
+        placeholder="Observaciones (ej. medidor tapado, acceso difícil, etc.)"
+      ></ion-textarea>
+    </ion-item>
+  </ion-list>
+
+  <ion-card class="section-card">
+    <ion-card-header>
+      <ion-card-title>Fotos</ion-card-title>
+      <ion-card-subtitle>Evidencia visual de la lectura</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="photos-row">
+        <div class="photo-block">
+          <div class="photo-preview" *ngIf="meterPhotoPreview; else meterPlaceholder">
+            <img [src]="meterPhotoPreview" />
+          </div>
+          <ng-template #meterPlaceholder>
+            <div class="photo-placeholder">
+              <ion-icon name="camera-outline"></ion-icon>
+            </div>
+          </ng-template>
+          <ion-button expand="block" size="small" (click)="takeMeterPhoto()">
+            Foto del medidor
+          </ion-button>
+        </div>
+
+        <div class="photo-block">
+          <div class="photo-preview" *ngIf="facadePhotoPreview; else facadePlaceholder">
+            <img [src]="facadePhotoPreview" />
+          </div>
+          <ng-template #facadePlaceholder>
+            <div class="photo-placeholder">
+              <ion-icon name="home-outline"></ion-icon>
+            </div>
+          </ng-template>
+          <ion-button expand="block" size="small" (click)="takeFacadePhoto()">
+            Foto de la fachada
+          </ion-button>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="section-card">
+    <ion-card-header>
+      <ion-card-title>Ubicación GPS</ion-card-title>
+      <ion-card-subtitle>
+        Guarda latitud y longitud para validar en Google Maps
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button expand="block" (click)="getLocation()">
+        Obtener ubicación actual
+      </ion-button>
+
+      <div class="coords" *ngIf="lat !== null && lng !== null">
+        <p>Latitud: {{ lat }}</p>
+        <p>Longitud: {{ lng }}</p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button
+    expand="block"
+    class="save-btn"
+    [disabled]="!canSave()"
+    (click)="save()"
+  >
+    Guardar lectura
+  </ion-button>
+</ion-content>

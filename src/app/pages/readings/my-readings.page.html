@@ -1,0 +1,61 @@
+<ion-header translucent="true">
+  <ion-toolbar color="primary">
+    <ion-title>Mis lecturas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="page-content">
+  <ion-refresher slot="fixed" (ionRefresh)="load($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ion-list *ngIf="readings.length; else empty" class="readings-list">
+    <ion-item *ngFor="let r of readings" lines="none">
+      <ion-card class="reading-card">
+        <ion-card-header>
+          <ion-card-title>Valor: {{ r.meter_value }}</ion-card-title>
+          <ion-card-subtitle>
+            {{ r.created_at | date: 'short' }}
+          </ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <p *ngIf="r.observations">
+            <strong>Obs:</strong> {{ r.observations }}
+          </p>
+
+          <div class="photo-row">
+            <div>
+              <p class="photo-label">Medidor</p>
+              <img [src]="r.meter_photo_url" />
+            </div>
+            <div>
+              <p class="photo-label">Fachada</p>
+              <img [src]="r.facade_photo_url" />
+            </div>
+          </div>
+
+          <p class="coords">
+            Lat: {{ r.lat }} • Lng: {{ r.lng }}
+          </p>
+
+          <ion-button
+            size="small"
+            fill="clear"
+            [href]="mapLink(r)"
+            target="_blank"
+          >
+            Ver en Google Maps
+            <ion-icon name="map-outline" slot="end"></ion-icon>
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+
+  <ng-template #empty>
+    <div class="empty-state">
+      <ion-icon name="water-outline"></ion-icon>
+      <p>No tienes lecturas registradas todavía.</p>
+    </div>
+  </ng-template>
+</ion-content>

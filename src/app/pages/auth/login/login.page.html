@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true" class="auth-bg">
+    <div class="auth-container">
+        <div class="logo-circle"> <ion-icon name="water-outline"></ion-icon> </div>
+        <h1>Lecturas de Agua</h1>
+        <p class="subtitle">Distrito Metropolitano de Quito</p>
+        <div class="card">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()"> <label class="field-label">Correo institucional</label>
+                <ion-input type="email" formControlName="email" placeholder="usuario@empresa.gob.ec"></ion-input> <label
+                    class="field-label">Contraseña</label>
+                <div class="password-row"> <ion-input [type]="showPassword ? 'text' : 'password'"
+                        formControlName="password"></ion-input> <ion-button fill="clear" size="small" type="button"
+                        (click)="togglePassword()"> <ion-icon
+                            [name]="showPassword ? 'eye-off-outline' : 'eye-outline'"></ion-icon> </ion-button> </div>
+                <ion-button expand="block" type="submit" class="primary-btn"> INGRESAR </ion-button>
+                <div class="links"> <button type="button" (click)="goToForgot()"> ¿Olvidaste tu contraseña? </button>
+                    <button type="button" (click)="goToRegister()"> ¿No tienes cuenta? Crear cuenta </button> </div>
+            </form>
+        </div>
+    </div>
+</ion-content>

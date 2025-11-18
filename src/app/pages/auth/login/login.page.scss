@@ -1,0 +1,102 @@
+.auth-bg {
+    --background: radial-gradient(circle at top, #1ca1ff, #004e92);
+}
+
+.auth-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+
+    ion-icon {
+        font-size: 32px;
+    }
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 18px;
+}
+
+.card {
+    width: 100%;
+    max-width: 380px;
+    background: #101219;
+    border-radius: 20px;
+    padding: 20px 18px 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+
+    ion-input {
+        --background: #181b24;
+        --color: #fff;
+        --placeholder-color: #6f7a8e;
+        --padding-start: 12px;
+        --border-radius: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+.field-label {
+    display: block;
+    font-size: 12px;
+    margin: 6px 0 4px;
+    text-align: left;
+    color: #f0f3ff;
+}
+
+/* Fila de contraseña (input + icono ojo) */
+.password-row {
+    display: flex;
+    align-items: center;
+
+    ion-input {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    ion-button {
+        margin-left: 4px;
+    }
+}
+
+.primary-btn {
+    margin-top: 8px;
+    --border-radius: 999px;
+}
+
+.links {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        background: none;
+        border: none;
+        color: #8da4ff;
+        font-size: 13px;
+    }
+}

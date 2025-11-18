@@ -1,0 +1,54 @@
+// si quieres reutilizar estilos
+.page-content {
+  --background: #f2f6fb;
+}
+
+.readings-list {
+  padding: 10px;
+}
+
+.reading-card {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.photo-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.photo-row div {
+  flex: 1;
+}
+
+.photo-row img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.photo-label {
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.coords {
+  font-size: 0.8rem;
+  margin-top: 6px;
+  color: #555;
+}
+
+.empty-state {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #7b8ba0;
+}
+
+.empty-state ion-icon {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,48 @@
+.dashboard-content {
+  --background: #f2f6fb;
+}
+
+.header-card {
+  padding: 18px 16px;
+  background: linear-gradient(135deg, #1c4966, #1293b8);
+  color: #fff;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+}
+
+.welcome {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.header-card h2 {
+  margin: 4px 0;
+  font-size: 1.3rem;
+}
+
+.role {
+  font-size: 0.8rem;
+  opacity: 0.95;
+}
+
+.cards-grid {
+  margin-top: 16px;
+  padding: 0 10px 16px;
+}
+
+.action-card {
+  border-radius: 18px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.action-card ion-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-card ion-icon {
+  font-size: 1.6rem;
+  color: var(--ion-color-primary);
+}
