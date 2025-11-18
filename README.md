@@ -9,8 +9,6 @@ La app permite a los usuarios autenticarse, registrar lecturas de medidores (usa
 
 ## 📸 Capturas de pantalla
 
-> Crea una carpeta por ejemplo `docs/img/` y guarda ahí tus imágenes.  
-> Luego reemplaza las rutas de ejemplo por las tuyas.
 
 ### Pantalla de  Registro
 
@@ -19,7 +17,8 @@ La app permite a los usuarios autenticarse, registrar lecturas de medidores (usa
 ### Pantalla de  Recuperacion de Contraseña 
 
 <img width="377" height="786" alt="image" src="https://github.com/user-attachments/assets/97ecf534-3d55-43a6-a6f9-3762d5d73eec" />
-
+<img width="486" height="289" alt="image" src="https://github.com/user-attachments/assets/b1143318-c7f4-4b0f-8991-3458c89d7d96" />
+<img width="521" height="571" alt="image" src="https://github.com/user-attachments/assets/f0f9dacf-99c8-48f4-b4f4-ed48642324a7" />
 
 ### Verficacion Correo
 
@@ -34,12 +33,12 @@ La app permite a los usuarios autenticarse, registrar lecturas de medidores (usa
 
 <img width="416" height="816" alt="image" src="https://github.com/user-attachments/assets/5be53cbc-5e50-4a2e-aaff-857bb20a1e00" />
 
-### Nueva Lectura
+### Nueva Lectura (Admin)
 
 <img width="414" height="767" alt="image" src="https://github.com/user-attachments/assets/a40ed12a-d0e7-416c-a087-f6b9075ca4ba" />
 <img width="398" height="70" alt="image" src="https://github.com/user-attachments/assets/2e0cd611-f4d8-4bf2-a686-bf50971afbfb" />
 
-### Camara Funcionando 
+### Camara Funcionando (Admin)
 <img width="395" height="813" alt="image" src="https://github.com/user-attachments/assets/6f4b1cc6-cb08-4c91-b60f-34af6bcb7981" />
 
 
@@ -54,15 +53,22 @@ La app permite a los usuarios autenticarse, registrar lecturas de medidores (usa
 <img width="404" height="778" alt="image" src="https://github.com/user-attachments/assets/f8d98772-319e-4526-9801-89ad6dd9abef" />
 
 
-### Dashboard
+### Modulo de Medidor (Medidor)
 
-### Dashboard
-![Dashboard](docs/img/dashboard.png)
+<img width="394" height="810" alt="image" src="https://github.com/user-attachments/assets/fc98f908-abb7-421e-8020-9e2087dd941f" />
 
-### Registro de lecturas
-![Nueva lectura](docs/img/new-reading.png)
+### Nueva lecturas (Medidor)
 
----
+<img width="401" height="802" alt="image" src="https://github.com/user-attachments/assets/d55b620f-68ec-4d43-969d-1f62febdacfe" />
+<img width="383" height="65" alt="image" src="https://github.com/user-attachments/assets/d5ce56e5-3e89-411b-abbd-747ed6bc5707" />
+
+
+### Mis lecturas (Medidor)
+
+<img width="385" height="791" alt="image" src="https://github.com/user-attachments/assets/0eb218d1-6690-41a5-9a05-37a666bcbda2" />
+
+
+
 
 ## 🚀 Características principales
 
