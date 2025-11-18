@@ -12,11 +12,49 @@ La app permite a los usuarios autenticarse, registrar lecturas de medidores (usa
 > Crea una carpeta por ejemplo `docs/img/` y guarda ahí tus imágenes.  
 > Luego reemplaza las rutas de ejemplo por las tuyas.
 
-### Pantalla de inicio de sesión (web)
-![Login web](docs/img/login-web.png)
+### Pantalla de  Registro
 
-### Pantalla de inicio de sesión (móvil / APK)
-![Login móvil](docs/img/login-mobile.png)
+<img width="397" height="809" alt="image" src="https://github.com/user-attachments/assets/2aad5c79-d285-4d37-86c1-9c01537b1b76" />
+
+### Pantalla de  Recuperacion de Contraseña 
+
+<img width="377" height="786" alt="image" src="https://github.com/user-attachments/assets/97ecf534-3d55-43a6-a6f9-3762d5d73eec" />
+
+
+### Verficacion Correo
+
+<img width="493" height="275" alt="image" src="https://github.com/user-attachments/assets/cc9ead19-0640-43ce-91fd-583ee23c8df1" />
+
+### Pantalla de inicio de sesión 
+
+<img width="399" height="604" alt="image" src="https://github.com/user-attachments/assets/b68c2530-f010-4380-89ec-7b8e8d8e8ea2" />
+
+
+### Panel de Medicion (Modulo Admin)
+
+<img width="416" height="816" alt="image" src="https://github.com/user-attachments/assets/5be53cbc-5e50-4a2e-aaff-857bb20a1e00" />
+
+### Nueva Lectura
+
+<img width="414" height="767" alt="image" src="https://github.com/user-attachments/assets/a40ed12a-d0e7-416c-a087-f6b9075ca4ba" />
+<img width="398" height="70" alt="image" src="https://github.com/user-attachments/assets/2e0cd611-f4d8-4bf2-a686-bf50971afbfb" />
+
+### Camara Funcionando 
+<img width="395" height="813" alt="image" src="https://github.com/user-attachments/assets/6f4b1cc6-cb08-4c91-b60f-34af6bcb7981" />
+
+
+### Mis lecturas enlace de Google Maps (Admin)
+
+<img width="405" height="778" alt="image" src="https://github.com/user-attachments/assets/ba4ca7aa-f075-4a4e-a5d1-34a657603f63" />
+<img width="1185" height="819" alt="image" src="https://github.com/user-attachments/assets/805ae588-1a26-43f0-97cc-2b86f9695b0f" />
+
+
+### Lecturas de todos (Admin)
+
+<img width="404" height="778" alt="image" src="https://github.com/user-attachments/assets/f8d98772-319e-4526-9801-89ad6dd9abef" />
+
+
+### Dashboard
 
 ### Dashboard
 ![Dashboard](docs/img/dashboard.png)
