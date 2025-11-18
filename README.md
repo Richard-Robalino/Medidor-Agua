@@ -1,10 +1,4 @@
-Te dejo un **README listo para pegar en GitHub**, con secciones para capturas y explicación detallada de instalación, build web (Firebase) y APK (Android/Capacitor).
 
-Puedes copiar todo esto a un archivo `README.md` en la raíz del proyecto y luego solo cambiar los textos que quieras y añadir las imágenes.
-
----
-
-````markdown
 # 📱 Lecturas de Agua
 
 Aplicación web y móvil desarrollada con **Ionic + Angular** para la gestión de lecturas de medidores de agua del **Distrito Metropolitano de Quito**.
